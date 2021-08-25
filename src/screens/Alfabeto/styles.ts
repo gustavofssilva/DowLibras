@@ -28,6 +28,9 @@ export const styles = StyleSheet.create({
         borderTopColor: "#fff"
     },
     botaoespaco:{
-        marginBottom: 25
+        marginBottom: 25,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 });

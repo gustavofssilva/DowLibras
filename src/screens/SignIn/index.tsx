@@ -1,7 +1,6 @@
 import React, {useState } from "react";
 import {View, Text, TextInput, Image, StatusBar} from 'react-native';
 
-
 import IllustrationImg from '../../assets/illustration.png'
 import { styles } from './styles'
 import { ButtonIcon } from '../../components/ButtonIcon';
@@ -39,7 +38,7 @@ const [text, setText] = useState('');
             style={styles.input}
             onChangeText={(value) => setText(value)}
             placeholder={"Digite seu nome aqui"}
-
+            placeholderTextColor={'white'} 
             />       
 
             <ButtonIcon

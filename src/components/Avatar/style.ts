@@ -9,10 +9,12 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginRight: 22,
+        
     },
     avatar: {
         width: 46,
         height: 46,
-        borderRadius: 8
+        borderRadius: 8,
+        backgroundColor:"#fff"
     }
 });

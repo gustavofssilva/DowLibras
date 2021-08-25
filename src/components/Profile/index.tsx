@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { styles } from './style';
 import { Avatar } from '../Avatar';
-import {SignIn} from '../../screens/SignIn';
 
 export function Profile() {
     
@@ -11,7 +10,7 @@ export function Profile() {
     return (
         <View style={styles.container}>
 
-            <Avatar urlImage="https://icon-library.com/images/profile-image-icon/profile-image-icon-26.jpg" />
+            <Avatar urlImage="http://simpleicon.com/wp-content/uploads/user1.png" />
 
             <View>
                 <View style={styles.user}>
@@ -19,13 +18,15 @@ export function Profile() {
                         Olá
                     </Text>
                     <Text style={styles.username}>
-                    Usuário
+                        Usuário
                     </Text>
                 </View>
 
                 <Text style={styles.message}>
-                    Bem vindo ao DowLibras!
+                     Mãos que falam, amor espalham!
+                    
                 </Text>
+                
             </View>
         </View>
     )
