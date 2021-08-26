@@ -11,7 +11,9 @@ import { Alfabeto } from '../screens/Alfabeto';
 import {Numeros } from '../screens/Numeros';
 import { Informatica } from '../screens/Informatica';
 import { LetrasAlfabeto } from '../components/LetrasAlfabeto';
-
+import { LetraB } from '../components/Letras/LetraB';
+import { LetraC } from '../components/Letras/LetraC';
+import { LetraCC } from '../components/Letras/LetraCC';
 export function AppRoutes(){
     
     return (
@@ -27,7 +29,10 @@ export function AppRoutes(){
                 <Stack.Screen name="Numeros" component={Numeros} />
                 <Stack.Screen name="Informatica" component={Informatica} />
                 <Stack.Screen name="LetrasAlfabeto" component={LetrasAlfabeto} />
-
+                <Stack.Screen name="LetraB" component={LetraB} />
+                <Stack.Screen name="LetraC" component={LetraC} />
+                <Stack.Screen name="LetraCC" component={LetraCC} />
+                
             </Stack.Navigator>
         </NavigationContainer>
     )

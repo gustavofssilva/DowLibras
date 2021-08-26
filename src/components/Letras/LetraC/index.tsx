@@ -1,24 +1,24 @@
 import React from 'react';
 import { View,Text, Image } from 'react-native';
 import { styles } from './styles'
-import { Voltar } from '../../components/Voltar';
-import letraA from '../../assets/letraA.png'
-import { VoltarAlfabeto } from '../VoltarAlfabeto';
+import { Voltar } from '../../Voltar';
+import letraC from '../../../assets/letraC.png'
+import { VoltarAlfabeto } from '../../VoltarAlfabeto';
 
-export function LetrasAlfabeto(){
+export function LetraC(){
     return (
         <View style={styles.container}>
             <View style={styles.header}>
-                <VoltarAlfabeto />
+                <VoltarAlfabeto/>
             </View>
 
             <View>
                 <Text style={styles.mensagem}>
-              Letra A
+              Letra C
                 </Text>
 
                 <Image
-                 source={letraA}
+                 source={letraC}
                  style={styles.image}
                  resizeMode={'stretch'}/> 
 

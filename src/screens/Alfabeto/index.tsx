@@ -28,15 +28,22 @@ export function Alfabeto(){
 
              <Botao
             title="B"
-            activeOpacity={0.7}/>    
+            activeOpacity={0.7}
+            onPress={() => navigation.navigate('LetraB')} 
+            />
+                   
 
              <Botao
             title="C"
-            activeOpacity={0.7}/>    
+            activeOpacity={0.7}
+            onPress={() => navigation.navigate('LetraC')} 
+            />    
 
             <Botao
             title="Ç"
-            activeOpacity={0.7}/>               
+            activeOpacity={0.7}
+            onPress={() => navigation.navigate('LetraCC')} 
+            />               
             </View> 
 
 
