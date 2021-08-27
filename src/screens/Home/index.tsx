@@ -58,7 +58,7 @@ export function Home() {
             <ButtonIcon
           title="Créditos"
           activeOpacity={0.7}
-          onPress={() => ('')}
+          onPress={() => navigation.navigate('Creditos')}
         />
             </View>
             

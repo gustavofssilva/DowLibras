@@ -10,6 +10,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#1B2565"
     },
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,16 +21,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fiap.dowlibras",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#070B24"
-      }
+        
+      },
+      "package": "com.fiap.dowlibras"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Aplicativo educacional para aprender Libras do zero!",
+    "githubUrl": "https://github.com/gustavofssilva/DowLibras"
   }
 }

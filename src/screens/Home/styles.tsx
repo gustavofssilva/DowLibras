@@ -31,6 +31,6 @@ export const styles = StyleSheet.create({
         marginBottom: 25
     },
     botaoespacooo:{
-        marginTop: 120,
+        marginTop: 100,
     }
 });

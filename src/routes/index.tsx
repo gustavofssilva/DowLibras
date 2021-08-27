@@ -10,6 +10,8 @@ import { Home } from '../screens/Home';
 import { Alfabeto } from '../screens/Alfabeto';
 import {Numeros } from '../screens/Numeros';
 import { Informatica } from '../screens/Informatica';
+import { Creditos } from '../screens/Creditos';
+
 import { LetrasAlfabeto } from '../components/LetrasAlfabeto';
 import { LetraB } from '../components/Letras/LetraB';
 import { LetraC } from '../components/Letras/LetraC';
@@ -67,6 +69,8 @@ export function AppRoutes(){
                 <Stack.Screen name="Alfabeto" component={Alfabeto} />
                 <Stack.Screen name="Numeros" component={Numeros} />
                 <Stack.Screen name="Informatica" component={Informatica} />
+                <Stack.Screen name="Creditos" component={Creditos} />
+                
                 <Stack.Screen name="LetrasAlfabeto" component={LetrasAlfabeto} />
                 <Stack.Screen name="LetraB" component={LetraB} />
                 <Stack.Screen name="LetraC" component={LetraC} />
