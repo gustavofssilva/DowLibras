@@ -38,6 +38,18 @@ import { LetraX } from '../components/Letras/LetraX';
 import { LetraY } from '../components/Letras/LetraY';
 import { LetraZ } from '../components/Letras/LetraZ';
 
+import { Num0 } from '../components/Num/Num0';
+import { Num1 } from '../components/Num/Num1';
+import { Num2 } from '../components/Num/Num2';
+import { Num3 } from '../components/Num/Num3';
+import { Num4 } from '../components/Num/Num4';
+import { Num5 } from '../components/Num/Num5';
+import { Num6 } from '../components/Num/Num6';
+import { Num7 } from '../components/Num/Num7';
+import { Num8 } from '../components/Num/Num8';
+import { Num9 } from '../components/Num/Num9';
+import { Num10 } from '../components/Num/Num10';
+
 
 
 
@@ -82,6 +94,18 @@ export function AppRoutes(){
                 <Stack.Screen name="LetraX" component={LetraX} />
                 <Stack.Screen name="LetraY" component={LetraY} />
                 <Stack.Screen name="LetraZ" component={LetraZ} />
+
+                <Stack.Screen name="Num0" component={Num0} />
+                <Stack.Screen name="Num1" component={Num1} />
+                <Stack.Screen name="Num2" component={Num2} />
+                <Stack.Screen name="Num3" component={Num3} />
+                <Stack.Screen name="Num4" component={Num4} />
+                <Stack.Screen name="Num5" component={Num5} />
+                <Stack.Screen name="Num6" component={Num6} />
+                <Stack.Screen name="Num7" component={Num7} />
+                <Stack.Screen name="Num8" component={Num8} />
+                <Stack.Screen name="Num9" component={Num9} />
+                <Stack.Screen name="Num10" component={Num10} />
 
 
 

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import { theme } from "../../global/styles/theme";
+import { theme } from '../../../global/styles/theme';
 export const styles = StyleSheet.create({
 
     container: {
@@ -17,22 +17,23 @@ export const styles = StyleSheet.create({
         marginBottom: 20,
        
     },
-    mensagemm:{
+    mensagem:{
         
         color: theme.colors.heading,
         textAlign: 'center',
         fontSize: 20,
-        marginBottom: 50,
+        marginBottom: 16,
         lineHeight: 40,
         borderTopWidth:0.5 ,
         borderTopColor: "#fff"
     },
-    botaoespacoo:{
-        marginBottom: 90,
-        marginLeft: 25,
-        marginRight: 25,
+    botaoespaco:{
+        marginBottom: 25,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    image:{
+        
     }
 });

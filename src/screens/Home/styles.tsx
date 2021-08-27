@@ -29,5 +29,8 @@ export const styles = StyleSheet.create({
     },
     botaoespaco:{
         marginBottom: 25
+    },
+    botaoespacooo:{
+        marginTop: 120,
     }
 });

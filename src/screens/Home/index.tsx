@@ -50,7 +50,15 @@ export function Home() {
             <ButtonIcon
           title="Informática"
           activeOpacity={0.7}
-          onPress={() => navigation.navigate('Informatica')}
+          onPress={() => ('')}
+        />
+            </View>
+
+            <View style={styles.botaoespacooo}>
+            <ButtonIcon
+          title="Créditos"
+          activeOpacity={0.7}
+          onPress={() => ('')}
         />
             </View>
             
