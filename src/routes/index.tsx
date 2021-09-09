@@ -11,6 +11,7 @@ import { Alfabeto } from '../screens/Alfabeto';
 import {Numeros } from '../screens/Numeros';
 import { Informatica } from '../screens/Informatica';
 import { Creditos } from '../screens/Creditos';
+import { Diaadia } from '../screens/Dia-a-dia';
 
 import { LetrasAlfabeto } from '../components/LetrasAlfabeto';
 import { LetraB } from '../components/Letras/LetraB';
@@ -52,6 +53,13 @@ import { Num8 } from '../components/Num/Num8';
 import { Num9 } from '../components/Num/Num9';
 import { Num10 } from '../components/Num/Num10';
 
+import {Banheiro} from '../components/Dia/Banheiro'
+import {Bom} from '../components/Dia/Bom'
+import {Desculpa} from '../components/Dia/Desculpa'
+import {Obrigado} from '../components/Dia/Obrigado'
+import {Tudo} from '../components/Dia/Tudo'
+
+
 
 
 
@@ -70,7 +78,7 @@ export function AppRoutes(){
                 <Stack.Screen name="Numeros" component={Numeros} />
                 <Stack.Screen name="Informatica" component={Informatica} />
                 <Stack.Screen name="Creditos" component={Creditos} />
-                
+                <Stack.Screen name="Diaadia" component={Diaadia} />
                 <Stack.Screen name="LetrasAlfabeto" component={LetrasAlfabeto} />
                 <Stack.Screen name="LetraB" component={LetraB} />
                 <Stack.Screen name="LetraC" component={LetraC} />
@@ -111,9 +119,11 @@ export function AppRoutes(){
                 <Stack.Screen name="Num9" component={Num9} />
                 <Stack.Screen name="Num10" component={Num10} />
 
-
-
-
+                <Stack.Screen name="Obrigado" component={Obrigado} />
+                <Stack.Screen name="Tudo" component={Tudo} />
+                <Stack.Screen name="Bom" component={Bom} />
+                <Stack.Screen name="Desculpa" component={Desculpa} />
+                <Stack.Screen name="Banheiro" component={Banheiro} />
 
             </Stack.Navigator>
         </NavigationContainer>

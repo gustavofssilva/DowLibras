@@ -1,7 +1,5 @@
 import React, {useState } from "react";
-import {View, Text, TextInput, Image, StatusBar} from 'react-native';
-
-import IllustrationImg from '../../assets/illustration.png'
+import {View, Text, TextInput,  StatusBar} from 'react-native';
 import { styles } from './styles'
 import { ButtonIcon } from '../../components/ButtonIcon';
 import { useNavigation} from "@react-navigation/native";
@@ -20,11 +18,7 @@ const [text, setText] = useState('');
             backgroundColor="transparent"
             translucent
         />
-          <Image
-            source={IllustrationImg}
-            style={styles.image}
-            resizeMode={'stretch'}
-          />
+         
     
           <View style={styles.content}>
           <Text style={styles.title}>

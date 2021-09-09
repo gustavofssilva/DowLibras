@@ -3,7 +3,7 @@ import { View,Text } from 'react-native';
 import { styles } from './styles';
 
 import { Profile } from '../../components/Profile';
-import { ButtonIcon } from '../../components/ButtonIcon';
+import { ButtonIconDois } from '../../components/ButtonIconDois';
 import { useNavigation } from '@react-navigation/native';
 
 export function Home() {
@@ -22,7 +22,7 @@ export function Home() {
             </View>
 
             <View style={styles.botaoespaco}>
-            <ButtonIcon
+            <ButtonIconDois
           title="Alfabeto"
           activeOpacity={0.7}
           onPress={() => navigation.navigate('Alfabeto')}
@@ -30,7 +30,7 @@ export function Home() {
             </View>
 
             <View style={styles.botaoespaco}>
-            <ButtonIcon
+            <ButtonIconDois
           title="Números"
           activeOpacity={0.7}
           onPress={() => navigation.navigate('Numeros')}
@@ -38,16 +38,16 @@ export function Home() {
             </View>
 
             <View style={styles.botaoespaco}>
-            <ButtonIcon
+            <ButtonIconDois
           title="Coisas do Dia-a-dia"
           activeOpacity={0.7}
-          onPress={() => ('')}
+          onPress={() => navigation.navigate('Diaadia')}
         />
             </View>
             
 
             <View style={styles.botaoespaco}>
-            <ButtonIcon
+            <ButtonIconDois
           title="Informática"
           activeOpacity={0.7}
           onPress={() => ('')}
@@ -55,7 +55,7 @@ export function Home() {
             </View>
 
             <View style={styles.botaoespacooo}>
-            <ButtonIcon
+            <ButtonIconDois
           title="Créditos"
           activeOpacity={0.7}
           onPress={() => navigation.navigate('Creditos')}

@@ -24,6 +24,6 @@ export const styles = StyleSheet.create({
     },
     message: {
        
-        color: theme.colors.highlight,
+        color: theme.colors.primary,
     },
 });
