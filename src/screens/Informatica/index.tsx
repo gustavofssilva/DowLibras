@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { View,Text } from 'react-native';
-import { ButtonIconTres } from '../../components/ButtonIconTres';
+import { ButtonIconQuatro } from '../../components/ButtonIconQuatro';
 import { Voltar } from '../../components/Voltar';
 import { styles } from './styles';
 
@@ -18,38 +18,38 @@ export function Informatica(){
 
         <View>
             <Text style={styles.mensagemm}>
-           Coisas do Dia-a-Dia 😯
+          Informatica 👨‍💻
             </Text>
         </View>  
 
         <View style={styles.botaoespaco}>
-            <ButtonIconTres
+            <ButtonIconQuatro
             title="Bom dia"
             activeOpacity={0.7}
             onPress={() => navigation.navigate('Bom')}/>  
               
             
 
-             <ButtonIconTres
+             <ButtonIconQuatro
             title="Tudo bem?"
             activeOpacity={0.7}
             onPress={() => navigation.navigate('Tudo')} 
             />
                    
 
-             <ButtonIconTres
+             <ButtonIconQuatro
             title="Obrigado"
             activeOpacity={0.7}
             onPress={() => navigation.navigate('Obrigado')} 
             />    
 
-            <ButtonIconTres
+            <ButtonIconQuatro
             title="Desculpa"
             activeOpacity={0.7}
             onPress={() => navigation.navigate('Desculpa')} 
             /> 
 
-             <ButtonIconTres
+             <ButtonIconQuatro
             title="Banheiro"
             activeOpacity={0.7}
             onPress={() => navigation.navigate('Banheiro')} 
