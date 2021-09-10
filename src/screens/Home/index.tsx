@@ -50,7 +50,7 @@ export function Home() {
             <ButtonIconDois
           title="Informática"
           activeOpacity={0.7}
-          onPress={() => navigation.navigate('Informatica')}        />
+          onPress={() => navigation.navigate('Informaticagit')}        />
             </View>
 
             <View style={styles.botaoespacooo}>
